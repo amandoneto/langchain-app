@@ -49,3 +49,6 @@ The Output Parser is responsible for taking the raw text response from the LLM a
 These three components are often combined into a Chain to create the complete application workflow:
 
 Prompt Template (Formats Input) → Model (Generates Response) → Output Parser (Structures Output).
+
+## Openai Memory
+The openai memory component is responsible for storing the conversation history in a database, allowing for persistent interactions.
