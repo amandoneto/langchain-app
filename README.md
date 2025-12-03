@@ -50,5 +50,10 @@ These three components are often combined into a Chain to create the complete ap
 
 Prompt Template (Formats Input) → Model (Generates Response) → Output Parser (Structures Output).
 
+## .Env File
+The .env file is used to store the OpenAI API key and model name.
+- OPENAI_API_KEY
+- OPENAI_MODEL_NAME
+
 ## Openai Memory
 The openai memory component is responsible for storing the conversation history in a database, allowing for persistent interactions.
