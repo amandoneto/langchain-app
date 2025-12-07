@@ -57,3 +57,7 @@ The .env file is used to store the OpenAI API key and model name.
 
 ## Openai Memory
 The openai memory component is responsible for storing the conversation history in a database, allowing for persistent interactions.
+
+## Router
+- A router class that initializes an OpenAI chat model and creates LangChain chains
+for different programming languages (e.g., JavaScript, Python).
